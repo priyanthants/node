@@ -1,5 +1,5 @@
 {
-  "name": "sample-rest-api-server-ts",
+  "name": "sample-curd-api-server-ts",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
