@@ -1,0 +1,21 @@
+{
+  "name": "sample-zeromq-client-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "serve": "node build/server.js",
+    "build": "npm run tsc && npm run serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/zeromq": "^4.6.1",
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "zeromq": "^5.1.0"
+  }
+}
