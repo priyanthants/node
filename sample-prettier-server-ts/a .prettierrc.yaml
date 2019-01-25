@@ -1,0 +1,9 @@
+#printWidth: 120
+#trailingComma: "all"
+#singleQuote": true
+#semi: true
+#bracketSpacing: true
+#arrowParens: "always"
+#parser: "typescript
+
+#https://prettier.io/docs/en/precommit.html
