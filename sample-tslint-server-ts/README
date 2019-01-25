@@ -1,0 +1,26 @@
+npm init
+npm install -D typescript
+npm install express
+npm install @types/express
+tsc --init
+npm install --save-dev tslint
+
+
+modify tsconfig.json
+"outDir": "./build",  
+
+create tslint.yaml
+
+modify package.json	 
+"scripts": {
+    "tsc": "tsc",
+    "serve": "node build/server.js",
+    "build": "npm run tsc && npm run serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+},
+
+create tslint.yaml
+
+npm install 
+npm run tslint 
+npm run build  

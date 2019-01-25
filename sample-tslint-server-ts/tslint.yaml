@@ -1,0 +1,13 @@
+extends:
+- tslint:recommended
+rulesDirectory:
+rules:    
+      #no-console: false
+      #trailing-comma: false
+      #whitespace: false
+      #typedef-whitespace: false
+jsRules:
+
+
+
+#https://palantir.github.io/tslint/rules/      
