@@ -1,0 +1,33 @@
+npm init
+npm install -D typescript
+npm install express
+npm install @types/express
+npm install body-parser
+npm install socket.io
+npm install @types/socket.io
+tsc --init
+
+modify tsconfig.json
+"outDir": "./build",  
+
+modify package.json	 
+"scripts": {
+    "tsc": "tsc",
+    "serve": "node build/server.js",
+    "build": "npm run tsc && npm run serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+},
+  
+
+
+npm install
+npm run build  
+
+API
+POST http://localhost:3000/notify
+
+{  
+   "topic":"notification",
+   "to":"13",
+   "message":"{'bookingId':2,'charge':1000}"
+}
